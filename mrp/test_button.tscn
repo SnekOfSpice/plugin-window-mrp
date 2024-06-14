@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://cuwbon2lmymxt"]
+
+[ext_resource type="Script" path="res://mrp/test_button.gd" id="1_82rxg"]
+
+[node name="TestButton" type="Button"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -3.0
+offset_top = -3.0
+offset_right = -3.0
+offset_bottom = -3.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Test"
+script = ExtResource("1_82rxg")
